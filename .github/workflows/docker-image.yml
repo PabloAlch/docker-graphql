@@ -31,7 +31,7 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker push -t olbapdow/docker-graphql:0.0.2 .
+        docker push -t olbapdow/docker-graphql:0.0.2
 
 
 #       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
